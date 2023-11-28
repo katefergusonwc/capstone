@@ -10,6 +10,7 @@ body {
 
 h1 {
   font-size: 50px;
+  text-align: center;
 }
 
 header {
@@ -132,10 +133,6 @@ footer {
   border-radius: 15px;
 }
 
-h1 {
-  text-align: center;
-}
-
 .prduct-image {
   padding: 50px;
   background-color: green;
@@ -147,4 +144,5 @@ h1 {
 
 .product-image:hover {
   transform: scale(1.1);
+  transition: all 0.1s ease-in-out;
 }
