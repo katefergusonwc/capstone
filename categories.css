@@ -1,3 +1,5 @@
+/*
+
 body {
   background-color: #f7f7f7;
   font-family: "Roboto", sans-serif;
@@ -31,7 +33,7 @@ header {
   align-items: center;
 }
 
-/* Adjust styles for the logo */
+
 .logo {
   float: left;
   margin-right: 10px;
@@ -58,7 +60,7 @@ main {
   flex: 1;
 }
 
-/* Add styles for the product grid */
+
 .products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -77,8 +79,8 @@ main {
 
 .price {
   font-weight: bold;
-  color: #0066cc; /* Change the color to your preference */
-}
+  color: #0066cc;  Change the color to your preference 
+
 
 footer {
   background-color: #034ad8;
@@ -145,3 +147,4 @@ footer {
 .product-image:hover {
   transform: scale(1.1);
 }
+ */
