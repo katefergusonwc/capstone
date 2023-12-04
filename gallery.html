@@ -1,79 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gallery</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="gallery.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html"><img src="Logo-white.png" width="50" alt="" /></a>
-      </div>
-      <div class="header-menu">
-        <div class="dropdown">
-          <button class="dropbtn">CATEGORIES</button>
-          <div class="dropdown-content">
-            <a href="clothing-category.html">CLOTHING</a>
-            <a href="baby-category.html">BABY</a>
-            <a href="accessories-category.html">ACCESSORIES</a>
-          </div>
-        </div>
-        <ul class="header-menu-right">
-          <li><a href="contact-us.html">CONTACT</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-        </ul>
-      </div>
-    </header>
-    <h1>Gallery</h1>
-    <div class="slider">
-      <img id="img-1" src="pictures/amber-black-tee.JPG" alt="navy tee" />
-      <img id="img-2" src="pictures/calum-blue-hoodie.JPG" alt="navy hoodie" />
-      <img id="img-3" src="pictures/david-grey-hoodie.png" alt="grey hoodie" />
-      <img id="img-4" src="pictures/davidandcharlotte.png" alt="grey hoodies" />
-      <img id="img-5" src="pictures/drink-bottle.png" alt="navy drink bottle" />
-      <img id="img-6" src="pictures/emoji.jpg" alt="emoji tee" />
-      <img id="img-7" src="pictures/grey-hoodie.png" alt="grey hoodie" />
-      <img id="img-8" src="pictures/IMG_4380.JPG" alt="FILL IN" />
-      <img id="img-9" src="pictures/IMG_4390.JPG" alt="FILL IN" />
-      <img id="img-10" src="pictures/IMG_4386.png" alt="FILL IN" />
-    </div>
-    <div class="navigation-button">
-      <span class="dot active" onclick="changeSlide(0)"></span>
-      <span class="dot" onclick="changeSlide(1)"></span>
-      <span class="dot" onclick="changeSlide(2)"></span>
-      <span class="dot" onclick="changeSlide(3)"></span>
-      <span class="dot" onclick="changeSlide(4)"></span>
-      <span class="dot" onclick="changeSlide(5)"></span>
-      <span class="dot" onclick="changeSlide(6)"></span>
-      <span class="dot" onclick="changeSlide(7)"></span>
-      <span class="dot" onclick="changeSlide(8)"></span>
-      <span class="dot" onclick="changeSlide(9)"></span>
-    </div>
+---
+title: Gallery
+layout: page.html
+---
 
-    <button onclick="togglePlayPause()">Play/Pause</button>
+<h1>Gallery</h1>
+<div class="slider">
+  <img id="img-1" src="/public/pictures/amber-black-tee.JPG" alt="navy tee" />
+  <img
+    id="img-2"
+    src="/public/pictures/calum-blue-hoodie.JPG"
+    alt="navy hoodie"
+  />
+  <img
+    id="img-3"
+    src="/public/pictures/david-grey-hoodie.png"
+    alt="grey hoodie"
+  />
+  <img
+    id="img-4"
+    src="/public/pictures/davidandcharlotte.png"
+    alt="grey hoodies"
+  />
+  <img
+    id="img-5"
+    src="/public/pictures/drink-bottle.png"
+    alt="navy drink bottle"
+  />
+  <img id="img-6" src="/public/pictures/emoji.jpg" alt="emoji tee" />
+  <img id="img-7" src="/public/pictures/grey-hoodie.png" alt="grey hoodie" />
+  <img id="img-8" src="/public/pictures/IMG_4380.JPG" alt="FILL IN" />
+  <img id="img-9" src="/public/pictures/IMG_4390.JPG" alt="FILL IN" />
+  <img id="img-10" src="/public/pictures/IMG_4386.png" alt="FILL IN" />
+</div>
+<div class="navigation-button">
+  <span class="dot active" onclick="changeSlide(0)"></span>
+  <span class="dot" onclick="changeSlide(1)"></span>
+  <span class="dot" onclick="changeSlide(2)"></span>
+  <span class="dot" onclick="changeSlide(3)"></span>
+  <span class="dot" onclick="changeSlide(4)"></span>
+  <span class="dot" onclick="changeSlide(5)"></span>
+  <span class="dot" onclick="changeSlide(6)"></span>
+  <span class="dot" onclick="changeSlide(7)"></span>
+  <span class="dot" onclick="changeSlide(8)"></span>
+  <span class="dot" onclick="changeSlide(9)"></span>
+</div>
 
-    <footer>
-      <div class="socials">
-        <a href="https://www.youtube.com/c/CloudCannon"
-          ><img src="youtube.png" alt="youtube logo"
-        /></a>
-        <a href="https://twitter.com/CloudCannon"
-          ><img src="twitter.png" alt="twitter logo"
-        /></a>
-        <a
-          href="https://www.linkedin.com/company/cloud-cannon/?originalSubdomain=nz"
-          ><img src="linkedin.png" alt="linkedin logo" class="linkedin"
-        /></a>
-      </div>
-    </footer>
-  </body>
-</html>
+<button onclick="togglePlayPause()">Play/Pause</button>
