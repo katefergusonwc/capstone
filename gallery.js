@@ -23,3 +23,14 @@ function changeSlide(n) {
 }
 
 let timer = setInterval(changeSlide, interval);
+
+let isPlaying = true;
+
+function togglePlayPause() {
+  isPlaying = !isPlaying;
+  if (isPlaying) {
+    timer = setInterval(changeSlide, interval);
+  } else {
+    clearInterval(timer);
+  }
+}

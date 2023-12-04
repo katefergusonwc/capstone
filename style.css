@@ -6,6 +6,7 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 h1 {
@@ -109,7 +110,7 @@ header {
 .phone,
 .email,
 .location {
-  color: red;
+  color: black;
   margin-left: 30px;
 }
 
@@ -147,6 +148,18 @@ main {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
 }
 
 .product {
@@ -215,7 +228,67 @@ main {
   margin: 0 auto;
 }
 
+.single-product-image {
+  margin-left: 30px;
+}
+
 .product-image:hover {
   transform: scale(1.1);
   transition: all 0.1s ease-in-out;
+}
+
+.product-details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 120px;
+  padding-top: 200px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form {
+  width: 300px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #034ad8;
+  border: solid;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.for-you {
+  text-align: center;
+}
+
+.for-you a {
+  display: inline-block;
+  margin: 10px;
 }
