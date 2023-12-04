@@ -1,7 +1,7 @@
 ---
 title: Navy Hoody
 cost: 40
-image:
+image: /public/pictures/archive_name/calum-blue-hoodie.avif
 ---
 
 The CloudCannon navy pullover hoodie.
