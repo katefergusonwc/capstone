@@ -238,13 +238,10 @@ main {
 }
 
 .product-details {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding-right: 120px;
-  padding-top: 200px;
-  box-sizing: border-box;
+  display: flex;
   text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .form {
@@ -267,6 +264,7 @@ textarea {
   box-sizing: border-box;
 }
 
+.button,
 button {
   background-color: #034ad8;
   border: solid;
