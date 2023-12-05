@@ -1,7 +1,7 @@
 ---
 title: Tote Bag
 cost: 20
-image:
+image: /public/pictures/archive_name/tote.avif
 ---
 
 The CloudCannon tote bag,

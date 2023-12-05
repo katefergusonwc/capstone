@@ -1,7 +1,7 @@
 ---
 title: Grey Hoody
 cost: 40
-image:
+image: /public/pictures/archive_name/david-grey-hoodie.avif
 ---
 
 The CloudCannon grey pullover hoodie.

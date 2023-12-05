@@ -1,7 +1,7 @@
 ---
 title: Drinkbottle
 cost: 40
-image:
+image: /public/pictures/archive_name/drink-bottle.avif
 ---
 
 This bottle is designed to come along with you at home

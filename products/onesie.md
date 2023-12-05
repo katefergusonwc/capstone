@@ -1,7 +1,7 @@
 ---
 title: Onesie
 cost: 20
-image:
+image: /public/pictures/onesie.png
 ---
 
 This onesie is crafted from soft-to-touch fabric,

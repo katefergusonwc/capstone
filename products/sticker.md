@@ -1,7 +1,7 @@
 ---
 title: Sticker
 cost: 5
-image:
+image: /public/pictures/sticker.jpg
 ---
 
 The CloudCannon Sticker - great for
