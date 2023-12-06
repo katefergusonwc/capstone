@@ -3,7 +3,7 @@ title: Gallery
 layout: page.html
 ---
 
-<h1>Gallery</h1>
+<h2>Gallery</h2>
 <div class="slider">
   <img id="img-1" src="/public/pictures/amber-black-tee.JPG" alt="navy tee" />
   <img
@@ -28,9 +28,24 @@ layout: page.html
   />
   <img id="img-6" src="/public/pictures/emoji.jpg" alt="emoji tee" />
   <img id="img-7" src="/public/pictures/grey-hoodie.png" alt="grey hoodie" />
-  <img id="img-8" src="/public/pictures/IMG_4380.JPG" alt="FILL IN" />
-  <img id="img-9" src="/public/pictures/IMG_4390.JPG" alt="FILL IN" />
-  <img id="img-10" src="/public/pictures/IMG_4386.png" alt="FILL IN" />
+  <img id="img-8" src="/public/pictures/IMG_4380.JPG" alt="amber heart" />
+  <img id="img-9" src="/public/pictures/IMG_4390.JPG" alt="group photo" />
+  <img id="img-10" src="/public/pictures/IMG_4386.png" alt="drink" />
+  <img
+    id="img-11"
+    src="/public/pictures/george-mike.jpg"
+    alt="george and mike standing together"
+  />
+  <img
+    id="img-12"
+    src="/public/pictures/mike-george.jpg"
+    alt="mike and george with others"
+  />
+  <img
+    id="img-13"
+    src="/public/pictures/calumdavidandrew.png"
+    alt="calmum andrew and david"
+  />
 </div>
 <div class="navigation-button">
   <span class="dot active" onclick="changeSlide(0)"></span>
@@ -43,6 +58,10 @@ layout: page.html
   <span class="dot" onclick="changeSlide(7)"></span>
   <span class="dot" onclick="changeSlide(8)"></span>
   <span class="dot" onclick="changeSlide(9)"></span>
+  <span class="dot" onclick="changeSlide(10)"></span>
+  <span class="dot" onclick="changeSlide(11)"></span>
+  <span class="dot" onclick="changeSlide(12)"></span>
 </div>
 
 <button onclick="togglePlayPause()">Play/Pause</button>
+{% include '_gallery.html' %}

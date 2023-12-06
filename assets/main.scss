@@ -65,7 +65,7 @@ main {
 
 .price {
   font-weight: bold;
-  color: #0066cc; /* Change the color to your preference */
+  color: #034ad8;
   text-align: center;
 }
 
@@ -74,14 +74,16 @@ main {
   height: 510px;
   margin: 0 auto;
   position: relative;
+  padding-bottom: 60px;
 }
 
 .slider img {
-  width: 352.5px;
+  width: 400px;
   height: auto;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .slider img:first-child {
@@ -95,6 +97,7 @@ main {
 .navigation-button {
   text-align: center;
   position: relative;
+  margin-top: 60px;
 }
 
 .dot {
@@ -105,6 +108,10 @@ main {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+
+.slider img:not(:first-of-type) {
+  opacity: 0;
 }
 
 .active,
@@ -196,9 +203,18 @@ button {
   margin: 10px;
 }
 
+.suggested {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
 .contact-details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-right: 200px;
+  padding-left: 250px;
+  padding-top: 80px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -209,8 +225,8 @@ button {
 
 @media only screen and (max-width: 600px) {
   .products,
-  .product-details {
+  .product-details,
+  .contact-details {
     grid-template-columns: 1fr;
   }
 }
-

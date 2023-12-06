@@ -1,4 +1,10 @@
-<div id="map"></div>
+<style>
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+</style>
+
 <link
   rel="stylesheet"
   href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
@@ -8,7 +14,5 @@
   src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
   crossorigin=""
 ></script>
-<script>
-  markers = {{ markers | json }};
-</script>
-<script src="/assets/map.js"></script>
+
+<script src="/public/map.js"></script>
