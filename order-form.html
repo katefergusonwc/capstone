@@ -7,7 +7,9 @@ layout: page.html
 
 <div class="form">
   <form id="myForm" action="/success" method="post">
+    <input type="hidden" name="inbox_key" value="order-form" />
     <label for="firstName">First Name<span style="color: red">*</span></label>
+
     <input
       type="text"
       id="firstName"
